@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.parents{
+    box-shadow: 1px 1px 10px 1px gray ;
+    height: 60vh;
+    width: 24vw;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.after{
+    width: 23px;
+    height: 4px;
+    /* border: solid blueviolet; */
+    /* background-color: rgb(185, 120, 246); */
+    background-image: linear-gradient(50deg, rgb(114, 55, 114),rgb(96, 96, 243));
+}
+.threeinone{
+    display: flex;
+    justify-content: center;
+}
+.fb{
+    border-radius: 50%;
+    border: 1px solid ;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    /* justify-content: space-between; */
+}
+.mini{
+display: flex;
+justify-content: space-between ;
+width: 33%;
+}
+.writeup{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* margin-left: 7px; */
+    /* border: solid black; */
+    /* height: 5ovw; */
+    width: 100%;
+}
+.hh{
+    margin-left: 14px;
+}
+.rem{
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: aqua; */
+    width: 100%;
+    justify-content: space-around;
+}
+input[type=Submit]{
+    border: none;
+    width: 90%;
+    height: 25px;
+    color: rgb(230, 245, 245);
+    margin-left: 15px;
+    background-color: blueviolet;
+    background-image: linear-gradient(50deg, purple,blue);
+    border-radius: 20px;
+}
+input[type=Email]{
+    width: 90%;
+    height: 25px;
+    /* color: rgb(230, 245, 245); */
+    margin-left: 15px;
+    background-color: rgb(250, 249, 250);
+    border: none;
+    outline: none;
+    
+}
+input[type=Password]{
+    width: 90%;
+    height: 25px;
+    /* color: rgb(230, 245, 245); */
+    margin-left: 15px;
+    background-color: rgb(244, 243, 244);
+    border: none;
+    outline: none;
+
+    
+}
+.ending{
+    display: flex;
+    justify-content: space-around;
+}
